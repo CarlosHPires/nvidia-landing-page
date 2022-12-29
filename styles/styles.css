@@ -1,10 +1,12 @@
 /* Utilities */
+@import "./home/introduction.css";
 
 @import "./utilities/colors.css";
 @import "./utilities/typography.css";
 @import "./utilities/components.css";
 
-/* Home */
-
 @import "./header.css";
 @import "./footer.css";
+@import "./global.css";
+
+/* Home */
