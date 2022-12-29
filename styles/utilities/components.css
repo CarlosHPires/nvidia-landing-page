@@ -1,0 +1,24 @@
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 10px 30px;
+  background: var(--details-color);
+  border-radius: 4px;
+  border-bottom: 1px solid var(--secondary-text-color);
+  border-right: 1px solid var(--secondary-text-color);
+  transition: 0.2s;
+}
+
+.button:hover {
+  background: var(--secondary-text-color);
+}
