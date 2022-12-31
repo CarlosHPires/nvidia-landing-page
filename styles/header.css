@@ -88,7 +88,7 @@
   .header-nav {
     position: fixed;
     top: 46px;
-    left: -100%;
+    right: -100%;
     flex-direction: column;
     background-color: var(--primary-color);
     width: 100%;
@@ -110,7 +110,7 @@
   }
 
   .header-nav.show {
-    left: 0;
+    right: 0;
   }
 
   .header-nav li {
