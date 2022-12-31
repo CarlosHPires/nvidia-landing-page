@@ -1,5 +1,4 @@
 /* Utilities */
-@import "./home/introduction.css";
 
 @import "./utilities/colors.css";
 @import "./utilities/typography.css";
@@ -10,3 +9,5 @@
 @import "./global.css";
 
 /* Home */
+@import "./home/introduction.css";
+@import "./home/about.css";
