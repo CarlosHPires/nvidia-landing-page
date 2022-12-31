@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Nvidia</title>
 </head>
@@ -21,8 +22,8 @@
             </div>
             <nav>
                 <ul class="header-nav">
-                    <li><a href="#home" class="nav-link">Home</a></li>
-                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#introduction-bg" class="nav-link">Home</a></li>
+                    <li><a href="#about-bg" class="nav-link">About</a></li>
                     <li><a href="#shop" class="nav-link">Shop</a></li>
                     <li><a href="#support" class="nav-link">Support</a></li>
                 </ul>
@@ -35,7 +36,7 @@
             </nav>
         </div>
     </header>
-    <main class="introduction-bg">
+    <main id="introduction-bg">
         <div class="introduction container">
             <div class="introduction-content">
                 <h1 class="introduction-title"><span>GeForce</span> RTX 4090</h1>
@@ -44,13 +45,59 @@
                     and play with the new <br> nvidia RTX 4090 gpu,
                     your next <br> <span>gaming experience</span>.
                 </p>
-                <a class="button" href="#about">Learn more</a>
+                <a class="button" href="#about-bg">Learn more</a>
             </div>
         </div>
     </main>
+    <section id="about-bg">
+        <div class="about container">
+            <div class="about-content">
+                <h2 class="about-title">Specs</h2>
+                <table class="about-table">
+                    <tr class="specs-row">
+                        <td class="row-text">NVIDIA CUDA Cores</td>
+                        <td class="row-text">
+                            <h3>16384</h3>
+                        </td>
+                    </tr>
+                    <tr class="specs-row">
+                        <td class="row-text">Boost Clock (GHz)</td>
+                        <td class="row-text">
+                            <h3>2.52</h3>
+                        </td>
+                    </tr>
+                    <tr class="specs-row">
+                        <td class="row-text">Memory Size</td>
+                        <td class="row-text">
+                            <h3>24GB</h3>
+                        </td>
+                    </tr>
+                    <tr class="specs-row">
+                        <td class="row-text">Memory Type</td>
+                        <td class="row-text">
+                            <h3>GDDR6X</h3>
+                        </td>
+                    </tr>
+                    <tr class="specs-row">
+                        <td class="row-text">Max Display Resolution</td>
+                        <td class="row-text">
+                            <h3>4K at 240Hz or <br>
+                                8K at 60Hz, with DSC </h3>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="about-content-image">
+                <img src="./assets/rtx-4090.png" alt="Geforce RTX 4090">
+            </div>
+
+        </div>
+
+    </section>
 
     <script src="./js/script.js"></script>
     <script src="./js/header.js"></script>
+    <script src="./js/plugins/scrollReveal.js"></script>
 </body>
 
 </html>
